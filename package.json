@@ -1,0 +1,19 @@
+{
+  "name": "newbuilds",
+  "version": "1.0.0",
+  "description": "Homework for QA position at Marketer Technologies",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Edgars P.",
+  "license": "ISC"
+}
