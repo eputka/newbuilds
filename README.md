@@ -9,8 +9,7 @@ Cleanup can be done either manually by logging in and removing favourite from pr
 
 # Results:
 ## Code related issues:
-1) data-testid's are not unique
-    One of few cases: 
+1) data-testid's are not unique for some elements, like:
     - Login form, email field: `data-testid="user-email"`
     - Reset password form, email field: `data-testid="user-email"`
 
@@ -22,7 +21,8 @@ Cleanup can be done either manually by logging in and removing favourite from pr
     - Search icon/button on Landing page;
 
 3) Listener exception when trying to access project page - https://newbuilds.com/listings/mineralvandsfabrikken
- `Uncaught TypeError: Cannot read property 'addEventListener' of null` 
+ 
+    `Uncaught TypeError: Cannot read property 'addEventListener' of null` 
  
 4) Component for navigation is duplicated in section 
 `<section class="hero container newbuilds">` on Landing page for some reasons?
