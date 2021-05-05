@@ -1,7 +1,7 @@
 # Instructions: 
 
 1) `npm install` - install dependencies
-2) `npm run cyperess:open` - launch cypress
+2) `npm run cypress:open` - launch cypress
 3) In Cypress UI select to run all specs 
 
 Keep in mind - there is no cleanup done after adding project as a favourite, because of that, there will be tests that would fail on **second** execution.
